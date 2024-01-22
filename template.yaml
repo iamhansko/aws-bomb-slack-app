@@ -19,6 +19,7 @@ Globals:
     MemorySize: 1024
     Environment:
       Variables:
+        STACK_NAME: !Ref AWS::StackName
         SLACK_CLIENT_ID: !Ref SlackClientId
         SLACK_CLIENT_SECRET: !Ref SlackClientSecret
         SLACK_SIGNING_SECRET: !Ref SlackSigningSecret
