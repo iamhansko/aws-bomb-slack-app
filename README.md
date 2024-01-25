@@ -1,4 +1,6 @@
-# <img src="docs/assets/logo.png" alt="logo" width="18" height="auto"> AWS-Bomb-Slack-App
+# <img src="docs/assets/logo.png" alt="logo" width="32" height="auto"> AWS-Bomb-Slack-App
+
+<img src="docs/assets/thumb.png" alt="thumb" width="540" height="auto">
 
 Clean Up AWS Resources within Slack using [aws-nuke](https://github.com/rebuy-de/aws-nuke)
 
@@ -19,8 +21,6 @@ Clean Up AWS Resources within Slack using [aws-nuke](https://github.com/rebuy-de
 # Project Structure
 ```
 📦aws-bomb-slack-app
- ┣ 📂docs
- ┃ ┗ 📜logo.png
  ┣ 📂src
  ┃ ┣ 📂external
  ┃ ┃ ┗ 📜aws-nuke-v2.25.0-linux-amd64.tar.gz
@@ -40,12 +40,18 @@ Clean Up AWS Resources within Slack using [aws-nuke](https://github.com/rebuy-de
 <br/>
 
 # Features
+#### [🇰🇷 Use Guide](https://hyunsuko.notion.site/AWS-Bomb-Slack-App-a6fe4ac4cc014c9fb8e5eef152adfca3?pvs=4)
+
 - `/bomb [Region_Name]`
     - **Remove AWS Resources in Selected Region**
+
+      *선택한 리전 내 모든 AWS 리소스들을 삭제합니다.*
 
 <br/>
 
 # Installation
+#### [🇰🇷 Installation Guide](https://hyunsuko.notion.site/AWS-Bomb-Slack-App-a6fe4ac4cc014c9fb8e5eef152adfca3?pvs=4)
+
 - Lambda Functions and S3 Buckets are needed to deploy a Slack App.
   
   *Slack App 배포를 위해 Lambda 함수와 S3 버킷이 사용됩니다.*
